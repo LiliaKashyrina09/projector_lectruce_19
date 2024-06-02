@@ -17,6 +17,7 @@ plt.title('Total Passengers Per Year')
 plt.ylabel('Total Passengers')
 plt.show()
 
+
 #Plot Type: Histogram
 #Use Case: visualize the distribution of a variable
 diamonds = sns.load_dataset('diamonds')

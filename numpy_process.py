@@ -23,6 +23,7 @@ tabulation_1b = np.column_stack((x_values, f_x_values))
 print("\nTabulation of F(x) = 2x^2 + 5:")
 print(tabulation_1b)
 
+
 # Task 1c: Tabulate the function F(x) = e^−x for x ∈ [−10, 10]
 x_values_2 = np.arange(-10, 11)
 f_x_values_2 = np.exp(-x_values_2)

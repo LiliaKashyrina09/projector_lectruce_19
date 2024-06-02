@@ -9,6 +9,7 @@ selected_columns = df[['Team', 'Yellow Cards', 'Red Cards']]
 print("Selected Columns:")
 print(selected_columns[['Team', 'Yellow Cards', 'Red Cards']])
 
+
 # Task 2c: Count how many teams participated in the Euro 2012
 number_of_teams = df['Team'].nunique()
 print("\nNumber of teams participated in Euro 2012:", number_of_teams)
